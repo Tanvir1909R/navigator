@@ -2,8 +2,11 @@
 .work{
     text-align: center;
     padding: 3rem 0;
+    background-color: $dark;
+    color: #FFFFFF;
     h1{
         font-size: $title-size;
+        
     }
     p{
         font-size: 1.2rem;
