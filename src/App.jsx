@@ -1,4 +1,5 @@
 import About from "./components/about/About";
+import Footer from "./components/footer/Footer";
 import Headers from "./components/header/Header";
 import Hero from "./components/hero/hero";
 import List from "./components/list/List";
@@ -16,6 +17,9 @@ const App = () => {
         <Work/>
         <About/>
       </main>
+      <footer>
+        <Footer/>
+      </footer>
     </>
   );
 };

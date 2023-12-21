@@ -12,6 +12,9 @@ body{
 header{
   background-color: $dark;
 }
+footer{
+  background-color: $dark;
+}
 
 .container{
   padding: 0 calc((100vw - 1270px) / 2);
