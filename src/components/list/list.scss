@@ -1,0 +1,17 @@
+@use '../../global.scss' as *;
+
+.list_wrapper{
+    padding: 7rem 1rem;
+    div{
+        width: 75%;
+        margin: 0 auto 50px auto;;
+        h1{
+            font-size: 2.6rem;
+            margin-bottom: 30px;
+        }
+        p{
+            font-size: $sub-title;
+            font-weight: 500;
+        }
+    }
+}

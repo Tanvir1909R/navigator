@@ -1,0 +1,22 @@
+@use '../../global.scss' as *;
+
+.hero{
+    background-color: $dark;
+    color: #F1F3F2;
+}
+.hero_wrapper{
+    padding: 1rem;
+    .hero_title{
+        text-align: center;
+        border-bottom: 1px solid #F1F3F2;
+        padding: 0 0 4rem 0;
+        p{
+            font-size: $sub-title;
+            font-weight: 500;
+        }
+        h1{
+            font-size: $title-size;
+        }
+    }
+}
+
